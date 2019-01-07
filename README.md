@@ -1,2 +1,1 @@
-# pi_sense_sendpic
-Send Pictures to Raspberry Pi  SenseHat over network
+[[http://www.binarytides.com/python-socket-programming-tutorial/]]
