@@ -1,0 +1,14 @@
+[Unit]
+Description=Sensehat Pix Reciever
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python2 /home/pi/pi_sense_sendpic/bind.py
+WorkingDirectory=/home/pi/pi_sense_sendpic
+StandardOutput=inherit
+StanderdError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
